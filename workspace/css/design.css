@@ -1,0 +1,182 @@
+/* ===========================================================
+    
+    COLOR AND DESIGN STYLESHEET, design.css
+
+    Website:
+    PCPC Arts Festival 2008 | Beginnings - Genesis
+    
+	Developed by:
+	Park Cities Presbyterian Church
+	
+	Created on: 
+	December 4, 2007
+	
+	Revised on:
+	February 22, 2008 at 5:50 pm
+
+    NOTES:
+    Re-work of the CSS Style Sheet - Design
+
+=========================================================== */
+
+body#pcpcartsfestival-2008 {
+	background: url(../images/2008arts-bg.jpg) no-repeat #000;
+	position: relative;
+	padding: 67px 48px;
+}
+
+#pcpcartsfestival-2008 #masthead {
+	height: 150px;
+}
+
+#pcpcartsfestival-2008 #masthead h1 {
+	text-indent: -9999px;
+	width: 264px;
+	height: 104px;
+	background: url(../images/beginnings-logo.png) no-repeat;
+	position: absolute;
+	top: 67px;
+	left: 595px;
+}
+
+#pcpcartsfestival-2008 #content {
+	background: #D9CDB3;
+	opacity: 0.8;
+		-moz-opacity: 80%;
+		filter: alpha(opacity=80);
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#pcpcartsfestival-2008 div#globalnav {
+	background: #111;
+	opacity: 0.8;
+		-moz-opacity: 80%;
+		filter: alpha(opacity=80);
+	margin-bottom: 0;
+}
+
+#pcpcartsfestival-2008 div#globalnav ul {
+	margin: 0;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#pcpcartsfestival-2008 div#globalnav ul li {
+	display: inline; margin-right: 15px;
+}
+
+#pcpcartsfestival-2008 #globalnav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font: bold 12px/100% Arial, Helvetica, sans-serif;
+}
+
+#pcpcartsfestival-2008 #globalnav ul li a:hover {
+	border-bottom: 3px solid #F4A823;
+}
+
+.globalnavtitle {
+	color: #aaa;
+	text-transform: uppercase;
+	font-size: 0.7em;
+}
+
+
+#pcpcartsfestival-2008 div.home-arts-festival-detail dl.theme-list {
+	display: inline;
+	float: left;
+	width: 300px;
+	margin: 2px 20px;
+}
+
+#pcpcartsfestival-2008 div.home-arts-festival-detail dl.theme-list dd {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+--------------------------------------------------
+Picture Styling
+--------------------------------------------------
+*/
+img.imgright {
+	float: right;
+	margin: 0.5em 0 0.5em 1.0em;
+	padding: 0.4em;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #999;
+    background-color: #eee;
+}
+
+img.imgleft {
+	float: left;
+	margin: 0.5em 1.0em 0.5em 0;
+	padding: 0.4em;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #999;
+    background-color: #eee;
+}
+
+
+/*
+====================================================
+Directions (wjn) 2008-03-26
+====================================================
+*/
+div.close_box {
+   padding: .1em .5em;
+   height:30px;
+    margin: -1em -1em 0 -1em;
+    text-align: right;
+    color:#ffffff;
+	background: #333333 url(http://forms.pcpc.org/images/black_50h_header_bar.png) top left repeat-x;
+}
+.report_utility_bar div.close_box {
+	background: #333333;
+	margin: 0 -.5em;
+	position: relative;
+	top: -.2em;
+	left: 0;
+}
+
+.close_box div.close_x {
+	margin: .5em  .5em  0 .5em;
+	width:2em;
+	cursor: pointer;
+	float:right;
+	background:url(http://forms.pcpc.org/images/icons/close_x.gif) top right no-repeat;
+
+}
+.close_box div.close_x:hover {
+	background:url(http://forms.pcpc.org/images/icons/close_x_hover.gif) top right no-repeat;
+}
+
+.close_box h3 {
+	float:left;
+	text-align:left;
+	margin:.4em 0 0 0 ;
+}
+
+#directions {
+ background:#ffffff;
+ position:absolute;
+ top:25%;
+ left:150px;
+ z-index:10;
+ border:#333333 solid .3em;
+ padding:0;
+}
+#directions img {
+	cursor: pointer;
+}
+#directions h2 {
+	color:#ffffff;
+	background: #333333;
+	padding:.2em 1em;
+}

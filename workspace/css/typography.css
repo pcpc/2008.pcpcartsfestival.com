@@ -1,0 +1,116 @@
+/* ===========================================================
+    
+    TYPOGRAPHY STYLESHEET, typography.css
+
+    Website:
+    PCPC Arts Festival 2008 | Beginnings - Genesis
+    
+	Developed by:
+	Park Cities Presbyterian Church
+	
+	Created on: 
+	December 4, 2007
+	
+	Revised on:
+	February 22, 2008 at 5:50 pm
+
+    NOTES:
+    Re-work of the CSS Style Sheet - Design
+
+=========================================================== */
+
+body#pcpcartsfestival-2008 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#pcpcartsfestival-2008 #masthead h4 {
+	position: absolute;
+	top: 181px;
+	left: 690px;
+}
+
+#pcpcartsfestival-2008 #masthead h4 a  {
+	background: #660000;
+	padding: 5px;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.0em;
+	line-height: 150%;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+#pcpcartsfestival-2008 #masthead h4 a:hover  {
+	background: #fff;
+	padding: 5px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #660000;
+}
+
+#pcpcartsfestival-2008 #content h2.home-welcome {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	font: italic 5.5em/100% Georgia, "Times New Roman", serif;
+	color: #B0B095;
+}
+
+#pcpcartsfestival-2008 #content p {
+	position: relative;
+	z-index: 20;
+	font-size: 14px;
+	line-height: 140%;
+}
+
+#pcpcartsfestival-2008 #content h3 {
+	position: relative;
+	z-index: 20;
+}
+
+p strong.pcpc-name {
+	font-weight: bold;
+}
+
+dl.theme-list dt {
+	border-bottom: 1px solid #353D3D;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #0F1817;
+	line-height: 140%;
+}
+
+dl.theme-list dd h3 {
+	padding-top: 6px;
+	line-height: 100%;
+	margin: 0;
+}
+
+dl.theme-list dd h3 span.theme-title-name {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5E230C;
+	font-size: 12px;
+}
+
+dl.theme-list dd h3 span.theme-title-verses {
+	font-weight: normal;
+	color: #1F1B12;
+	font-size: 12px;
+	margin-left: 4px;
+}
+
+#pcpcartsfestival-2008 #content dl.theme-list dd.theme-description p {
+	font-weight: normal;
+	font-style: italic;
+	color: #0F1817;
+	font-size: 12px;
+	line-height: 110%;
+	padding-top: 5px;
+}
+#schedule {
+	float: right;
+}
+
